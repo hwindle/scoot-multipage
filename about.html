@@ -1,105 +1,200 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Scoot About</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  About
-  Location
-  Careers
+    <title>Frontend Mentor | Scoot About</title>
+  </head>
+  <body id="about-page">
+    <header>
+      <div class="header__mobile-menu-btn"></div>
+      <div id="header__text-logo">
+        <a href="./index.html" class="sr-only">Scoot</a>
+      </div>
+      <ul class="header__menu">
+        <li class="menu__item">
+          <a href="./about.html" class="menu__link">About</a>
+        </li>
+        <li class="menu__item">
+          <a href="./locations.html" class="menu__link">Location</a>
+        </li>
+        <li class="menu__item">
+          <a href="./careers.html" class="menu__link">Careers</a>
+        </li>
+      </ul>
+      <button class="header__call-to-action">
+        <a href="#app-download">Get Scootin</a>
+      </button>
+    </header>
+    <!-- top section with heading -->
+    <section class="intro">
+      <h1 class="top__main-heading">About</h1>
+    </section>
+    <!-- main content -->
+    <section class="sales-content">
+      <article class="sales-content__card">
+        <div class="card__image-arrow"></div>
+        <h2 class="card__title">Mobility for the digital era</h2>
+        <p class="card__text">
+          Getting around should be simple (and even fun!) for everyone. We
+          embrace technology to provide low cost, smart access to scooters at
+          your fingertips.
+        </p>
+      </article>
+      <article class="sales-content__card">
+        <div class="card__image-arrow"></div>
+        <h2 class="card__title">Better urban living</h2>
+        <p class="card__text">
+          We’re helping connect cities and bring people closer together. Our
+          scooters are also fully-electric and we offset the minimal carbon
+          footprint for each ride.
+        </p>
+      </article>
+    </section>
+    <!-- values section -->
+    <section class="values">
+      <h2 class="values__heading">Our values</h2>
+      <div class="value" id="value-1">
+        <figure>
+          <div class="value__img"></div>
+          <div class="value__number">01</div>
+        </figure>
+        <h3 class="value__title">Our tech</h3>
+        <p class="value__para">
+          We’re using cutting edge technology to drive accessible urban
+          transportation forward. Our fully electric scooters are a joy to ride!
+        </p>
+      </div>
+      <div class="value" id="value-2">
+        <figure>
+          <div class="value__img"></div>
+          <div class="value__number">02</div>
+        </figure>
+        <h3 class="value__title">Our integrity</h3>
+        <p class="value__para">
+          We are fully committed to deliver a great yet safe, sustainable
+          micro-mobility experience in every city we serve.
+        </p>
+      </div>
+      <div class="value" id="value-3">
+        <figure>
+          <div class="value__img"></div>
+          <div class="value__number">03</div>
+        </figure>
+        <h3 class="value__title">Our community</h3>
+        <p class="value__para">
+          We support every community we serve. All workers are paid a living
+          wage based on their location and are Scoot employees.
+        </p>
+      </div>
+    </section>
+    <!-- FAQ's accordion -->
+    <section class="faqs">
+      <h2 class="faqs__heading">FAQs</h2>
+      <h3 class="faqs__subheading">How it works</h3>
+      <div class="accordion-one">
+        <div class="q-and-a">
+          <p class="question">How do I download the app?</p>
+          <p class="answer">
+            To download the Scoot app, you can search “Scoot” in both the App
+            and Google Play stores. An even simpler way to do it would be to
+            click the relevant link at the bottom of this page and you’ll be
+            re-directed to the correct page.
+          </p>
+        </div>
+        <div class="q-and-a">
+          <p class="question">Can I find a nearby Scoots?</p>
+          <p class="answer">
+            Definitely! Simply open up the app and allow us to find your
+            location while using it. We'll show you all of the closest Scoots
+            and some extra useful information.
+          </p>
+        </div>
 
-  Get Scootin
+        <div class="q-and-a">
+          <p class="question">Do I need a license to ride?</p>
+          <p class="answer">
+            Yup! We provide information inside the app regarding local laws and
+            the license you need to be able to ride our Scoots.
+          </p>
+        </div>
+      </div>
 
+      <h3 class="faqs__subheading">Safe driving</h3>
+      <div class="accordion-two">
+        <div class="q-and-a">
+          <p class="question">Should I wear a helmet?</p>
+          <p class="answer">
+            Yes, please do! All cities have different laws. But we strongly
+            strongly strongly recommend always wearing a helmet regardless of
+            the local laws. We like you and we want you to be as safe as
+            possible while Scooting.
+          </p>
+        </div>
+        <div class="q-and-a">
+          <p class="question">How about the rules & regulations?</p>
+          <p class="answer">
+            Now is not the time to be a rule breaker. Be sure you're complying
+            with all local laws and regulations. Also, just be a good human
+            being. Be sure not to park your Scoot where it can block access to
+            buildings or get in people's way.
+          </p>
+        </div>
+        <div class="q-and-a">
+          <p class="question">What if I damage my Scoot?</p>
+          <p class="answer">
+            Be sure to read our terms and conditions carefully. Not the most fun
+            job we know but we make it as clear as possible. There's an option
+            to add insurance for each trip, or you can sign up for annual
+            insurance if you're a regular Scooter.
+          </p>
+        </div>
+      </div>
+    </section>
 
-
-  About
-
-
-
-  Mobility for the digital era
-
-  Getting around should be simple (and even fun!) for everyone. We embrace technology to 
-  provide low cost, smart access to scooters at your fingertips.
-
-  Better urban living
-
-  We’re helping connect cities and bring people closer together. Our scooters are also 
-  fully-electric and we offset the minimal carbon footprint for each ride.
-
-
-
-  Our values
-
-  01
-  Our tech
-  We’re using cutting edge technology to drive accessible urban transportation forward. 
-  Our fully electric scooters are a joy to ride!
-
-  02
-  Our integrity
-  We are fully committed to deliver a great yet safe, sustainable micro-mobility experience 
-  in every city we serve.
-
-  03
-  Our community
-  We support every community we serve. All workers are paid a living wage based on their 
-  location and are Scoot employees.
-
-
-
-  FAQs
-
-  How it works
-
-  How do I download the app?
-
-  To download the Scoot app, you can search “Scoot” in both the App and Google Play stores. 
-  An even simpler way to do it would be to click the relevant link at the bottom of this 
-  page and you’ll be re-directed to the correct page.
-
-  Can I find a nearby Scoots?
-
-  Definitely! Simply open up the app and allow us to find your location while using it. We'll 
-  show you all of the closest Scoots and some extra useful information. 
-
-  Do I need a license to ride?
-
-  Yup! We provide information inside the app regarding local laws and the license you need to be 
-  able to ride our Scoots.
-
-  Safe driving
-
-  Should I wear a helmet?
-
-  Yes, please do! All cities have different laws. But we strongly strongly strongly recommend 
-  always wearing a helmet regardless of the local laws. We like you and we want you to be as 
-  safe as possible while Scooting.
-
-  How about the rules & regulations?
-
-  Now is not the time to be a rule breaker. Be sure you're complying with all local laws and 
-  regulations. Also, just be a good human being. Be sure not to park your Scoot where it can 
-  block access to buildings or get in people's way.
-
-  What if I damage my Scoot?
-
-  Be sure to read our terms and conditions carefully. Not the most fun job we know but we make 
-  it as clear as possible. There's an option to add insurance for each trip, or you can sign 
-  up for annual insurance if you're a regular Scooter.
-
-  Sign up and Scoot off today
-
-
-
-  About
-  Location
-  Careers
-
-</body>
+    <!-- grey app links area near footer -->
+    <section class="app-store" id="app-download">
+      <h4 class="app-store__heading">Sign up and Scoot off today</h4>
+      <div class="app-store__links">
+        <div class="links__ios"></div>
+        <div class="links__android"></div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="footer__text-logo"><a href="./index.html" class="sr-only">Scoot</a></div>
+      <ul class="footer__secondary-nav">
+        <li class="secondary-nav__item">
+          <a href="./about.html" class="secondary-nav__link">About</a>
+        </li>
+        <li class="secondary-nav__item">
+          <a href="./locations.html" class="secondary-nav__link">Location</a>
+        </li>
+        <li class="secondary-nav__item">
+          <a href="./careers.html" class="secondary-nav__link">Careers</a>
+        </li>
+      </ul>
+      <nav class="social-links">
+        <ul class="social-links__list">
+          <li class="list__item" id="facebook">
+            <a href="#" class="list__link"></a>
+          </li>
+          <li class="list__item" id="twitter-or-x">
+            <a href="#" class="list__link"></a>
+          </li>
+          <li class="list__item" id="instagram">
+            <a href="#" class="list__link"></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
