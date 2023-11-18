@@ -1,89 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Scoot</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  About
-  Location
-  Careers
-
-  Get Scootin
-
-
-
-  Careers
-
-
-
-  Care to join our mission?
-
-  We’re always looking for ambitious individuals to help us on our journey. If you’re 
-  passionate about our mission to provide clean, accessible transport to improve urban 
-  living we want to hear from you!
-
-  Say Hello
-
-
-
-  Why join us?
-
-  01
-  Our tech
-  We’re using cutting edge technology to drive accessible urban transportation forward. 
-  Our fully electric scooters are a joy to ride!
-
-  02
-  Our integrity
-  We are fully committed to deliver a great yet safe, sustainable micro-mobility experience 
-  in every city we serve.
-
-  03
-  Our community
-  We support every community we serve. All workers are paid a living wage based on their 
-  location and are Scoot employees.
-
-  
-
-  General Manager
-  Jakarta, Indonesia
-  Apply
-
-  UI/UX Designer
-  Yokohama, Japan
-  Apply
-
-  Blog Content Copywriter
-  New York, United States
-  Apply
-
-  Graphic Designer
-  New York, United States
-  Apply
-
-  Fleet Supervisor
-  Jakarta, Indonesia
-  Apply
-
-  UX Analyst
-  London, United Kingdom
-  Apply
-
-  
-
-  Sign up and Scoot off today
-
-
-
-  About
-  Location
-  Careers
-
-</body>
+    <title>Frontend Mentor | Scoot</title>
+  </head>
+  <body id="careers-page">
+    <header>
+      <div class="header__mobile-menu-btn"></div>
+      <div id="header__text-logo">
+        <a href="./index.html" class="sr-only">Scoot</a>
+      </div>
+      <ul class="header__menu">
+        <li class="menu__item">
+          <a href="./about.html" class="menu__link">About</a>
+        </li>
+        <li class="menu__item">
+          <a href="./locations.html" class="menu__link">Location</a>
+        </li>
+        <li class="menu__item">
+          <a href="./careers.html" class="menu__link">Careers</a>
+        </li>
+      </ul>
+      <button class="header__call-to-action">
+        <a href="#app-download">Get Scootin</a>
+      </button>
+    </header>
+    <!-- top section with heading -->
+    <section class="intro">
+      <h1 class="top__main-heading">Careers</h1>
+    </section>
+    <!-- main content -->
+    <section class="mission">
+      <article class="mission__card">
+        <div class="card__image-arrow"></div>
+        <h2 class="card__title">Care to join our mission?</h2>
+        <p class="card__text">
+          We’re always looking for ambitious individuals to help us on our
+          journey. If you’re passionate about our mission to provide clean,
+          accessible transport to improve urban living we want to hear from you!
+        </p>
+        <button class="card__say-hello"><a href="#">Say Hello</a></button>
+      </article>
+    </section>
+    <!-- reasons to join section -->
+    <section class="values">
+      <h2 class="values__heading">Why join us?</h2>
+      <div class="value" id="value-1">
+        <figure>
+          <div class="value__img"></div>
+          <div class="value__number">01</div>
+        </figure>
+        <h3 class="value__title">Our tech</h3>
+        <p class="value__para">
+          We’re using cutting edge technology to drive accessible urban
+          transportation forward. Our fully electric scooters are a joy to ride!
+        </p>
+      </div>
+      <div class="value" id="value-2">
+        <figure>
+          <div class="value__img"></div>
+          <div class="value__number">02</div>
+        </figure>
+        <h3 class="value__title">Our integrity</h3>
+        <p class="value__para">
+          We are fully committed to deliver a great yet safe, sustainable
+          micro-mobility experience in every city we serve.
+        </p>
+      </div>
+      <div class="value" id="value-3">
+        <figure>
+          <div class="value__img"></div>
+          <div class="value__number">03</div>
+        </figure>
+        <h3 class="value__title">Our community</h3>
+        <p class="value__para">
+          We support every community we serve. All workers are paid a living
+          wage based on their location and are Scoot employees.
+        </p>
+      </div>
+    </section>
+    <!-- job vacancies area -->
+    <section class="live-vacancies">
+      <ul class="jobs-list">
+        <li class="job">
+          <h4 class="job__title">General Manager</h4>
+          <p class="job__location">Jakarta, Indonesia</p>
+          <button class="job__apply-btn"><a href="#">Apply</a></button>
+        </li>
+        <li class="job">
+          <h4 class="job__title">UI/UX Designer</h4>
+          <p class="job__location">Yokohama, Japan</p>
+          <button class="job__apply-btn"><a href="#">Apply</a></button>
+        </li>
+        <li class="job">
+          <h4 class="job__title">Blog Content Copywriter</h4>
+          <p class="job__location">New York, United States</p>
+          <button class="job__apply-btn"><a href="#">Apply</a></button>
+        </li>
+        <li class="job">
+          <h4 class="job__title">Graphic Designer</h4>
+          <p class="job__location">New York, United States</p>
+          <button class="job__apply-btn"><a href="#">Apply</a></button>
+        </li>
+        <li class="job">
+          <h4 class="job__title">Fleet Supervisor</h4>
+          <p class="job__location">Jakarta, Indonesia</p>
+          <button class="job__apply-btn"><a href="#">Apply</a></button>
+        </li>
+        <li class="job">
+          <h4 class="job__title">UX Analyst</h4>
+          <p class="job__location">London, United Kingdom</p>
+          <button class="job__apply-btn"><a href="#">Apply</a></button>
+        </li>
+      </ul>
+    </section>
+    
+    <!-- grey app links area near footer -->
+    <section class="app-store" id="app-download">
+      <h4 class="app-store__heading">Sign up and Scoot off today</h4>
+      <div class="app-store__links">
+        <div class="links__ios"></div>
+        <div class="links__android"></div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="footer__text-logo"><a href="./index.html" class="sr-only">Scoot</a></div>
+      <ul class="footer__secondary-nav">
+        <li class="secondary-nav__item">
+          <a href="./about.html" class="secondary-nav__link">About</a>
+        </li>
+        <li class="secondary-nav__item">
+          <a href="./locations.html" class="secondary-nav__link">Location</a>
+        </li>
+        <li class="secondary-nav__item">
+          <a href="./careers.html" class="secondary-nav__link">Careers</a>
+        </li>
+      </ul>
+      <nav class="social-links">
+        <ul class="social-links__list">
+          <li class="list__item" id="facebook">
+            <a href="#" class="list__link"></a>
+          </li>
+          <li class="list__item" id="twitter-or-x">
+            <a href="#" class="list__link"></a>
+          </li>
+          <li class="list__item" id="instagram">
+            <a href="#" class="list__link"></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>

@@ -1,49 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Scoot</title>
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  About
-  Location
-  Careers
+    <title>Frontend Mentor | Scoot</title>
+  </head>
+  <body id="locations-page">
+    <header>
+      <div class="header__mobile-menu-btn"></div>
+      <div id="header__text-logo">
+        <a href="./index.html" class="sr-only">Scoot</a>
+      </div>
+      <ul class="header__menu">
+        <li class="menu__item">
+          <a href="./about.html" class="menu__link">About</a>
+        </li>
+        <li class="menu__item">
+          <a href="./locations.html" class="menu__link">Location</a>
+        </li>
+        <li class="menu__item">
+          <a href="./careers.html" class="menu__link">Careers</a>
+        </li>
+      </ul>
+      <button class="header__call-to-action">
+        <a href="#app-download">Get Scootin</a>
+      </button>
+    </header>
+    <!-- top section with heading -->
+    <section class="intro">
+      <h1 class="top__main-heading">Locations</h1>
+    </section>
+    <!-- world map section -->
+    <section class="world-map"></section>
+    <!-- locations listing -->
+    <section class="locations">
+      <ul class="locations-list">
+        <li class="place">New York</li>
+        <li class="place">London</li>
+        <li class="place">Yokohama</li>
+        <li class="place">Jakarta</li>
+      </ul>
+    </section>
+    <!-- message us section -->
+    <section class="message-us">
+      <h2 class="message-us__heading">Your city not listed?</h2>
+      <p class="message-us__text">
+        If you’d like to see Scoot in your hometown, be sure to let us know. We
+        track requests and plan launches based on demand. Feel free to message
+        us by clicking the link or messaging us on social.
+      </p>
+      <button class="message-us__btn"><a href="#">Message Us</a></button>
+    </section>
 
-  Get Scootin
-
-
-
-  Locations
-
-
-
-  New York
-  London
-  Yokohama
-  Jakarta
-
-  Your city not listed?
-
-  If you’d like to see Scoot in your hometown, be sure to let us know. We track 
-  requests and plan launches based on demand. Feel free to message us by clicking 
-  the link or messaging us on social.
-
-  Message Us
-
-  
-
-  Sign up and Scoot off today
-
-
-
-  About
-  Location
-  Careers
-
-</body>
+    <!-- grey app links area near footer -->
+    <section class="app-store" id="app-download">
+      <h4 class="app-store__heading">Sign up and Scoot off today</h4>
+      <div class="app-store__links">
+        <div class="links__ios"></div>
+        <div class="links__android"></div>
+      </div>
+    </section>
+    <!-- footer -->
+    <footer>
+      <div class="footer__text-logo">
+        <a href="./index.html" class="sr-only">Scoot</a>
+      </div>
+      <ul class="footer__secondary-nav">
+        <li class="secondary-nav__item">
+          <a href="./about.html" class="secondary-nav__link">About</a>
+        </li>
+        <li class="secondary-nav__item">
+          <a href="./locations.html" class="secondary-nav__link">Location</a>
+        </li>
+        <li class="secondary-nav__item">
+          <a href="./careers.html" class="secondary-nav__link">Careers</a>
+        </li>
+      </ul>
+      <nav class="social-links">
+        <ul class="social-links__list">
+          <li class="list__item" id="facebook">
+            <a href="#" class="list__link"></a>
+          </li>
+          <li class="list__item" id="twitter-or-x">
+            <a href="#" class="list__link"></a>
+          </li>
+          <li class="list__item" id="instagram">
+            <a href="#" class="list__link"></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
 </html>
