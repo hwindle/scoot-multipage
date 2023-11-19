@@ -1,0 +1,25 @@
+/**** VARIABLES ****/
+
+/* font faces */
+@font-face {
+  font-family: 'heading-font';
+  src: url('../fonts/SpaceMono-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'body-font';
+  src: url('../fonts/LexendDeca-VariableFont_wght.ttf') format('truetype');
+}
+
+/* margin sizes, colours */
+:root {
+  --mobile-margin: 2rem;
+  --tablet-margin: 3rem;
+  
+  --yellow: hsl(40, 97%, 58%);
+  --dark-navy: hsl(216, 17%, 35%);
+  --mid-grey: hsl(217, 12%, 62%);
+  --light-grey: hsl(212, 41%, 93%);
+  --snow: hsl(214, 37%, 96%);
+  --light-yellow: hsl(39, 100%, 94%);
+}
