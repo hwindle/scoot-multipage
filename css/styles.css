@@ -1,0 +1,12 @@
+@import url('./parts/01_reset.css');
+@import url('./parts/02_variables.css');
+@import url('./parts/03_mobile_layout.css');
+@import url('./parts/04_header-nav.css');
+@import url('./parts/05_footer.css');
+@import url('./parts/06_links-buttons.css');
+@import url('./parts/07_home.css');
+@import url('./parts/08_about.css');
+@import url('./parts/09_careers.css');
+@import url('./parts/10_location.css');
+@import url('./parts/11_tablet-layout.css');
+@import url('./parts/12_desktop-layout.css');
