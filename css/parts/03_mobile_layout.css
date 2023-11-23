@@ -1,0 +1,16 @@
+body {
+  font-size: 15px;
+  font-family: body-font, Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: heading-font, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  line-height: 1.5;
+}
+
+header, section, footer {
+  margin: 0 var(--mobile-margin);
+}

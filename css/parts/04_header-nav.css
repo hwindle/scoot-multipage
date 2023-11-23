@@ -1,0 +1,60 @@
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 1rem 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#header__text-logo {
+  flex-grow: 1;
+}
+
+#header__text-logo > a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: var(--dark-navy);
+  font-size: 1.6rem;
+  font-family: heading-font, Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  padding: 1rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+#header__text-logo > a:hover , #header__text-logo > a:focus {
+  border: 1px dotted var(--yellow);
+  color: black;
+}
+
+.header__mobile-menu-btn {
+  width: 2rem;
+  height: 2rem;
+  background-image: url('../../assets/icons/hamburger.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.mobile-menu {
+  display: none;
+}
+
+/* flyout menu part */
+
+div.mobile-menu.active {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 4rem var(--mobile-margin);
+  background-color: var(--dark-navy);
+}
+
+.mobile-menu.active > ul > .menu__item {
+  font-size: 1.3rem;
+  color: var(--snow);
+  font-family: heading-font, Verdana, Geneva, Tahoma, sans-serif;
+}
