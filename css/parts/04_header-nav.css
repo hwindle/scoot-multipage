@@ -44,17 +44,66 @@ div.mobile-menu {
 /* flyout menu part */
 
 div.mobile-menu.active {
-  position: relative;
+  position: absolute;
   left: 0;
   top: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 87vh;
+  margin: 6rem 0 2rem 0;
+
   display: flex;
   flex-direction: column;
-  margin: 4rem var(--mobile-margin);
-  background-color: var(--dark-navy);
+  justify-content: space-around;
+  align-items: flex-start;
+  /* overlay shadow */
+  background-color: hsla(0, 0%, 0%, 70%);
 }
 
-.mobile-menu.active > ul > .menu__item {
+div.mobile-menu.active > ul {
+  width: max(70%, 370px);
+  height: 85vh;
+  background-color: var(--dark-navy);
+  padding-top: 3rem;
+}
+
+.mobile-menu.active > ul > .menu__item > a {
+  display: block;
+  width: 100%;
+  padding: 1rem 2rem;
   font-size: 1.3rem;
   color: var(--snow);
   font-family: heading-font, Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+}
+
+.mobile-menu.active > ul > .menu__item > a:hover, 
+.mobile-menu.active > ul > .menu__item > a:focus {
+  text-decoration: underline;
+  background-color: hsl(216, 17%, 15%);
+}
+
+.mobile-menu.active > button {
+  width: max(70%, 370px);
+  background-color: var(--dark-navy);
+  border: none;
+}
+
+.mobile-menu.active > button > a {
+  display: block;
+  margin: 2rem;
+  padding: 1rem 2rem;
+  background-color: var(--yellow);
+  color: var(--snow);
+  font-weight: bold;
+  font-size: 1.1rem;
+  letter-spacing: 0.2ch;
+  border: 2px solid var(--yellow);
+  text-decoration: none;
+}
+
+.mobile-menu.active > button > a:hover,
+.mobile-menu.active > button > a:focus {
+  background-color: var(--snow);
+  color: var(--yellow);
 }
