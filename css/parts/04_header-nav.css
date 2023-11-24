@@ -90,20 +90,5 @@ div.mobile-menu.active > ul {
 }
 
 .mobile-menu.active > button > a {
-  display: block;
   margin: 2rem;
-  padding: 1rem 2rem;
-  background-color: var(--yellow);
-  color: var(--snow);
-  font-weight: bold;
-  font-size: 1.1rem;
-  letter-spacing: 0.2ch;
-  border: 2px solid var(--yellow);
-  text-decoration: none;
-}
-
-.mobile-menu.active > button > a:hover,
-.mobile-menu.active > button > a:focus {
-  background-color: var(--snow);
-  color: var(--yellow);
 }

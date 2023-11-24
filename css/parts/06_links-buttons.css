@@ -1,0 +1,18 @@
+button > a {
+  display: block;
+  padding: 0.8rem 1.7rem;
+  background-color: var(--yellow);
+  color: var(--snow);
+  font-weight: bold;
+  font-size: 1.1rem;
+  letter-spacing: 0.2ch;
+  border: 2px solid var(--yellow);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button > a:hover,
+button > a:focus {
+  background-color: var(--snow);
+  color: var(--yellow);
+}

@@ -14,7 +14,7 @@
 /* margin sizes, colours */
 :root {
   --mobile-margin: 2rem;
-  --tablet-margin: 3rem;
+  --tablet-margin: 4rem;
   
   --yellow: hsl(40, 97%, 58%);
   --dark-navy: hsl(216, 17%, 35%);
