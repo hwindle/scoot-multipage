@@ -55,4 +55,54 @@
   .mobile-menu > ul > .menu__item > a:focus {
     color: var(--yellow);
   }
+
+
+  /* Home page styles - top intro section */
+  body#home-page section.top {
+    background-image: url('../../assets/images/home-hero-tablet.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+    padding-left: var(--tablet-margin);
+    padding-right: var(--tablet-margin);
+  }
+  
+  h1.top__main-heading {
+    max-width: 25ch;
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  body#home-page p.top__description {
+    max-width: 60ch;
+    color: white;
+    text-align: center;
+  }
+  
+  div.top__yellow-arrow {
+    position: absolute;
+    width: 25rem;
+    height: 10rem;
+    left: -5rem;
+    bottom: 2rem;
+    background-image: url('../../assets/patterns/right-arrow.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 0% 100%;
+  }
+  
+  div.top__white-circles-desktop {
+    display: block;
+    position: absolute;
+    width: 234px;
+    height: 63px;
+    bottom: 3rem;
+    right: -2rem;
+    background-image: url('../../assets/patterns/white-circles.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: 100% 0%;
+  }
+
 }

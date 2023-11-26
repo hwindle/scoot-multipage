@@ -24,6 +24,15 @@ body#home-page p.top__description {
   text-align: center;
 }
 
+article.top-content {
+  /* inner flex box */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
 div.top__yellow-arrow {
   position: absolute;
   width: 25rem;
@@ -35,3 +44,4 @@ div.top__yellow-arrow {
   background-size: 100% 100%;
   background-position: 0% 100%;
 }
+
