@@ -88,6 +88,6 @@ h2.feature__title {
 
 p.feature__description {
   color: var(--mid-grey);
-  width: 40ch;
+  max-width: 40ch;
   text-align: center;
 }
