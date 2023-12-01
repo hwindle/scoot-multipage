@@ -65,8 +65,8 @@
   /*** features ***/
   section.features-grid {
     display: grid;
-    margin: 3rem var(--tablet-margin);
-    grid-template-columns: 1fr 1fr 1fr;
+    margin: 4rem var(--tablet-margin);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
     gap: 4rem;
   }
 
@@ -76,7 +76,6 @@
     flex-direction: column;
     justify-items: space-between;
     align-items: center;
-    gap: 2rem;
     padding: 2rem 0;
   }
 
@@ -97,7 +96,8 @@
   }
 
   div.feature__icon.ride::before {
-    left: -23rem;
+    left: -14rem;
+    width: 71%;
   }
   /* end of grey stripe */
 
@@ -106,7 +106,19 @@
     text-align: left;
   }
 
+  div.text-wrapper {
+    width: 100%;
+  }
+
   p.feature__description {
-    width: 50ch;
+    max-width: 50ch;
+  }
+}
+
+@media screen and (min-width: 1519px) {
+  /* grey stripe on home page */
+  div.feature__icon.ride::before {
+    /* left: -14rem; */
+    width: 55%;
   }
 }
