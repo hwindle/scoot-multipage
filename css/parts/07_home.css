@@ -45,3 +45,49 @@ div.top__yellow-arrow {
   background-position: 0% 100%;
 }
 
+/*** features ***/
+section.features-grid {
+  display: block;
+  margin: 3rem var(--mobile-margin);
+}
+
+div.feature {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-items: center;
+  align-items: center;
+  padding: 2rem 0; 
+}
+
+div.feature__icon {
+  width: 3.75rem;
+  height: 3.75rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 4rem;
+}
+
+div.feature__icon.locate {
+  background-image: url('../../assets/icons/locate.svg');
+}
+
+div.feature__icon.scooter {
+  background-image: url('../../assets/icons/scooter.svg');
+}
+
+div.feature__icon.ride {
+  background-image: url('../../assets/icons/ride.svg');
+}
+
+h2.feature__title {
+  color: var(--dark-navy);
+  line-height: 2;
+  text-align: center;
+}
+
+p.feature__description {
+  color: var(--mid-grey);
+  width: 40ch;
+  text-align: center;
+}
