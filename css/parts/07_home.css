@@ -103,8 +103,38 @@ article.sales-pitches__card {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 1rem;
 }
 
 figure.card__figure {
   position: relative;
+}
+
+figure.card__figure > img {
+  max-width: 21rem;
+  border-radius: 100%;
+}
+
+div.card__text-info {
+  padding: 2rem 0;
+}
+
+.card__title {
+  margin: 0 auto;
+  max-width: 20ch;
+  font-size: 1.5rem;
+  color: var(--dark-navy);
+  line-height: 1.5;
+  text-align: center;
+}
+
+.card__description {
+  color: var(--mid-grey);
+  max-width: 50ch;
+  text-align: center;
+}
+
+.card__learn-more {
+  display: block;
+  margin: 2rem auto;
 }
