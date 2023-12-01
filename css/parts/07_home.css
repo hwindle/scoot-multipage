@@ -91,3 +91,20 @@ p.feature__description {
   max-width: 40ch;
   text-align: center;
 }
+
+/*** cards with decorative arrows/circles next to pics ***/
+/* sales pitches/ or sales content */
+section.sales-pitches {
+  margin: 1rem var(--mobile-margin);
+}
+
+article.sales-pitches__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+figure.card__figure {
+  position: relative;
+}
