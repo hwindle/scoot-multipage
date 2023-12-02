@@ -111,7 +111,6 @@
     display: grid;
     margin: 3rem var(--tablet-margin);
     justify-content: center;
-
   }
 
   div.feature {
@@ -148,5 +147,83 @@
 
   p.feature__description {
     max-width: 50ch;
+  }
+
+  /*** cards with decorative arrows/circles next to pics ***/
+  /* sales pitches/ or sales content */
+  section.sales-pitches {
+    width: 100%;
+    margin: 1rem auto;
+  }
+
+  article.sales-pitches__card {
+    padding-bottom: 2rem;
+    overflow: hidden;
+  }
+
+  
+
+  figure.card__figure > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    border-radius: 100%;
+  }
+
+  div.card__left-down-arrow {
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    left: -52%;
+    top: 0;
+    background-image: url('../../assets/patterns/right-arrow.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 2;
+  }
+
+  div.left-full-circle,
+  div.right-full-circle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-image: url('../../assets/patterns/circle.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  div.left-full-circle {
+    left: -100%;
+    clip-path: polygon(60% 0, 100% 0, 100% 100%, 60% 100%);
+  }
+
+  div.right-full-circle {
+    right: -100%;
+    clip-path: polygon(0% 0%, 40% 0%, 40% 100%, 0% 100%);
+  }
+
+  div.top-card__right-down-arrow {
+    width: 734px;
+    height: 100px;
+    position: absolute;
+    right: -40%;
+    bottom: 0;
+    background-image: url('../../assets/patterns/left-downward-arrow.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 2;
+  }
+
+  div.card__right-down-arrow {
+    width: 390px;
+    height: 130px;
+    position: absolute;
+    left: 52%;
+    top: 20%;
+    background-image: url('../../assets/patterns/left-downward-arrow.svg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: 2;
   }
 }
