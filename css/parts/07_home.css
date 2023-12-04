@@ -95,7 +95,8 @@ p.feature__description {
 /*** cards with decorative arrows/circles next to pics ***/
 /* sales pitches/ or sales content */
 section.sales-pitches {
-  margin: 1rem var(--mobile-margin);
+  width: 100%;
+  margin: 3rem auto;
 }
 
 article.sales-pitches__card {
@@ -104,6 +105,7 @@ article.sales-pitches__card {
   justify-content: center;
   align-items: center;
   padding-bottom: 2rem;
+  overflow: hidden;
 }
 
 figure.card__figure {
@@ -111,12 +113,15 @@ figure.card__figure {
 }
 
 figure.card__figure > img {
-  max-width: 21rem;
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
   border-radius: 100%;
 }
 
 div.card__text-info {
   padding: 2rem 0;
+  margin: 0 var(--mobile-margin);
 }
 
 .card__title {
@@ -137,4 +142,41 @@ div.card__text-info {
 .card__learn-more {
   display: block;
   margin: 2rem auto;
+}
+
+/* yellow arrows - sales cards */
+div.top-card__right-down-arrow {
+  width: 734px;
+  height: 100px;
+  position: absolute;
+  right: -40%;
+  bottom: 0;
+  background-image: url('../../assets/patterns/left-downward-arrow.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: 2;
+}
+
+div.card__right-down-arrow {
+  width: 390px;
+  height: 130px;
+  position: absolute;
+  left: 52%;
+  top: 20%;
+  background-image: url('../../assets/patterns/left-downward-arrow.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: 2;
+}
+
+div.card__left-down-arrow {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  left: -40%;
+  top: 0;
+  background-image: url('../../assets/patterns/right-arrow.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: 2;
 }
