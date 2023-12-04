@@ -153,15 +153,13 @@
   /* sales pitches/ or sales content */
   section.sales-pitches {
     width: 100%;
-    margin: 1rem auto;
+    margin: 3rem auto;
   }
 
   article.sales-pitches__card {
     padding-bottom: 2rem;
     overflow: hidden;
   }
-
-  
 
   figure.card__figure > img {
     display: block;
@@ -174,7 +172,7 @@
     width: 100%;
     height: 40%;
     position: absolute;
-    left: -52%;
+    left: -40%;
     top: 0;
     background-image: url('../../assets/patterns/right-arrow.svg');
     background-repeat: no-repeat;
@@ -194,8 +192,8 @@
   }
 
   div.left-full-circle {
-    left: -100%;
-    clip-path: polygon(60% 0, 100% 0, 100% 100%, 60% 100%);
+    left: -90%;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
   }
 
   div.right-full-circle {

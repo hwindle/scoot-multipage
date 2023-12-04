@@ -113,6 +113,33 @@
   p.feature__description {
     max-width: 50ch;
   }
+
+  /*** cards with decorative arrows/circles next to pics ***/
+  /* sales pitches/ or sales content */
+
+  article.sales-pitches__card {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  article.sales-pitches__card.fig-left {
+    flex-direction: row;
+  }
+
+  h3.card__title, p.card__description {
+    text-align: left;
+  }
+
+  .card__learn-more {
+    margin: 2rem auto 2rem 0;
+  }
+
+  h3.card__title {
+    margin: 1rem 0;
+  }
+
 }
 
 @media screen and (min-width: 1519px) {

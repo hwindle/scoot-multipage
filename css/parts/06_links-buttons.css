@@ -13,6 +13,6 @@ button > a {
 
 button > a:hover,
 button > a:focus {
-  background-color: var(--snow);
+  background-color: white;
   color: var(--yellow);
 }
