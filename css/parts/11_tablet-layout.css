@@ -171,4 +171,9 @@
     right: -100%;
     clip-path: polygon(0% 0%, 40% 0%, 40% 100%, 0% 100%);
   }
+
+  /*** grey app links near footer ***/
+  section.app-store {
+    background-position: 60% 100%;
+  }
 }
