@@ -4,6 +4,7 @@ section.app-store {
   margin-top: 1rem;
   width: 100%;
   height: auto;
+  
   padding: 5rem var(--mobile-margin);
   background-color: var(--dark-navy);
   color: white;
@@ -29,6 +30,7 @@ section.app-store > h4.app-store__heading {
 
 
 footer {
+  margin: 0;
   width: 100%;
 }
 
