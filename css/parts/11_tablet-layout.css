@@ -243,4 +243,8 @@ body#locations-page > section.intro {
   body#about-page > section.intro {
     background-image: url('../../assets/images/about-hero-tablet.jpg');
   }
+
+  div.value > .value__para {
+    max-width: 50ch;
+  }
 }

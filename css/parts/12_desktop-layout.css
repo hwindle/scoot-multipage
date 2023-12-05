@@ -156,6 +156,16 @@
     background-image: url('../../assets/images/about-hero-desktop.jpg');
   }
 
+  div.values-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+
+  div.value > .value__para {
+    max-width: 45ch;
+  }
+
 }
 
 @media screen and (min-width: 1519px) {
