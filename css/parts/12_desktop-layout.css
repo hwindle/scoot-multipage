@@ -151,6 +151,11 @@
     text-align: left;
   }
 
+  /*** about page ***/
+  body#about-page > section.intro {
+    background-image: url('../../assets/images/about-hero-desktop.jpg');
+  }
+
 }
 
 @media screen and (min-width: 1519px) {

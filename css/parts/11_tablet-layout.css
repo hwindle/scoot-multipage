@@ -239,4 +239,8 @@ body#locations-page > section.intro {
     margin-left: 5rem;
     text-align: left;
   }
+
+  body#about-page > section.intro {
+    background-image: url('../../assets/images/about-hero-tablet.jpg');
+  }
 }

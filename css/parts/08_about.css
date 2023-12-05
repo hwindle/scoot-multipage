@@ -37,21 +37,28 @@ div.top-card__right-up-arrow {
 }
 
 /* values section */
+section.values {
+  max-width: 100%;
+  display: grid;
+  grid-template-rows: 6rem 1fr;
+  justify-content: center;
+}
+
 section.values > h2 {
-  margin: 0 auto;
   color: var(--dark-navy);
   line-height: 2;
   text-align: center;
 }
 
-div.value > figure {
-  margin: 1rem var(--mobile-margin);
-  width: 100%;
-  height: auto;
+div.value {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 div.value > figure > div.value__img {
-  margin: 0 auto;
   width: 16rem;
   height: 16rem;
   background-repeat: no-repeat;
