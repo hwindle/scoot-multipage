@@ -1,0 +1,23 @@
+/* intro below the header, styles in common to 3 pages */
+body#about-page > section.intro,
+body#careers-page > section.intro,
+body#locations-page > section.intro {
+  margin: 0;
+  width: 100%;
+}
+
+body#about-page > section.intro > h1,
+body#careers-page > section.intro > h1,
+body#locations-page > section.intro > h1 {
+  width: 100%;
+  padding: 3rem 0;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+body#about-page > section.intro {
+  background-image: url('../../assets/images/about-hero-mobile.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
