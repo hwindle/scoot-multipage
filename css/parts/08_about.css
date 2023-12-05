@@ -10,6 +10,7 @@ body#about-page > section.intro > h1,
 body#careers-page > section.intro > h1,
 body#locations-page > section.intro > h1 {
   width: 100%;
+  margin: 0 auto;
   padding: 3rem 0;
   color: white;
   text-align: center;
@@ -20,4 +21,17 @@ body#about-page > section.intro {
   background-image: url('../../assets/images/about-hero-mobile.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* sales info */
+div.top-card__right-up-arrow {
+  width: 734px;
+  height: 100px;
+  position: absolute;
+  right: -40%;
+  bottom: 0;
+  background-image: url('../../assets/patterns/left-upward-arrow.svg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: 2;
 }
