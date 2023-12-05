@@ -44,7 +44,8 @@ section.values {
   justify-content: center;
 }
 
-section.values > h2 {
+section.values > h2,
+section.faqs > h2 {
   color: var(--dark-navy);
   line-height: 2;
   font-size: 2rem;
@@ -109,4 +110,50 @@ div.value__number {
   background-color: var(--yellow);
   color: var(--dark-navy);
   border-radius: 7rem;
+}
+
+/*** FAQ's section ***/
+section.faqs {
+  margin: 3rem 1rem;
+}
+
+h3.faqs__subheading {
+  font-size: 1.6rem;
+  color: var(--dark-navy);
+  text-align: center;
+  line-height: 2;
+}
+
+div.q-and-a {
+  background-color: var(--light-grey);
+  margin: 1rem;
+}
+
+p.question {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  font-family: heading-font;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+p.question.closed > span.chevron {
+  width: 1rem;
+  height: 0.8rem;
+  display: block;
+  background-image: url('../../assets/icons/chevron-open.svg');
+  background-size: 100% 100%;
+}
+
+p.question.open > span.chevron {
+  width: 1rem;
+  height: 0.8rem;
+  display: block;
+  background-image: url('../../assets/icons/chevron-close.svg');
+  background-size: 100% 100%;
 }
