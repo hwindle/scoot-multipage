@@ -47,15 +47,19 @@ section.values {
 section.values > h2 {
   color: var(--dark-navy);
   line-height: 2;
+  font-size: 2rem;
   text-align: center;
 }
 
 div.value {
-  
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+div.value > figure {
+  position: relative;
 }
 
 div.value > figure > div.value__img {
@@ -76,4 +80,33 @@ div.value#value-2 > figure > div.value__img {
 
 div.value#value-3 > figure > div.value__img {
   background-image: url('../../assets/images/our-community.jpg');
+}
+
+div.value > h3 {
+  margin-top: 3rem;
+  color: var(--dark-navy);
+  text-align: center;
+  font-size: 1.7rem;
+  padding: 1.5rem var(--mobile-margin);
+}
+
+div.value > .value__para {
+  color: var(--mid-grey);
+  max-width: 40ch;
+  margin: 1rem var(--mobile-margin) 2rem;
+  text-align: center;
+}
+
+div.value__number {
+  position: absolute;
+  bottom: -18%;
+  left: 33%;
+  width: 6rem;
+  height: 6rem; 
+  padding: 1.8rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  background-color: var(--yellow);
+  color: var(--dark-navy);
+  border-radius: 7rem;
 }
