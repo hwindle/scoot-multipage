@@ -182,4 +182,23 @@
     max-width: 15ch;
     font-size: 2.5rem;
   }
+  /*** footer ***/
+  footer {
+    margin: 0;
+    padding: 1rem var(--tablet-margin);
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  footer > .footer__secondary-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  footer > div.footer__text-logo > a {
+    text-align: left;
+    padding-left: 0;
+  }
 }

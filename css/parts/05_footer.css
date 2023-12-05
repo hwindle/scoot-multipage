@@ -41,6 +41,7 @@ section.app-store > .app-store__links {
   height: 3.3rem;
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: bottom right;
   cursor: pointer;
   border: 1px solid transparent;
 }
