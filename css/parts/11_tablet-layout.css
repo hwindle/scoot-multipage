@@ -201,4 +201,42 @@
     text-align: left;
     padding-left: 0;
   }
+
+  /*** about page ***/
+  body#about-page div.white-circles,
+  body#careers-page > div.white-circles,
+  body#locations-page > div.white-circles {
+    /* circles on the right */
+    position: absolute;
+    top: 32%;
+    right: -2.6rem;
+    width: 17rem;
+    height: 4rem;
+    background-image: url('../../assets/patterns/white-circles.svg');
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+    background-size: 100% 100%;
+    clip-path: polygon(0% 0%, 85% 0, 85% 100%, 0 100%);
+  }
+
+  body#about-page > section.intro,
+body#careers-page > section.intro,
+body#locations-page > section.intro {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+  body#about-page > section.intro > h1,
+  body#careers-page > section.intro > h1,
+  body#locations-page > section.intro > h1 {
+    margin: 0;
+    margin-left: 5rem;
+    text-align: left;
+  }
 }
