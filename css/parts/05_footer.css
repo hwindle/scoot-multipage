@@ -61,11 +61,46 @@ div.links__android {
 /*** footer ***/
 footer {
   margin: 0;
+  padding: 1rem var(--mobile-margin);
   width: 100%;
+  background-color: #333A44;
+}
+
+footer > div.footer__text-logo > a {
+  color: white;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: heading-font, Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
+  padding: 1rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+footer > div.footer__text-logo > a:hover, 
+footer > div.footer__text-logo > a:focus {
+  border: 1px dotted var(--yellow);
+  color: var(--snow);
 }
 
 footer > .footer__secondary-nav > li,
 footer > .social-links > ul > li {
   list-style-type: none;
   display: block;
+}
+
+a.secondary-nav__link {
+  width: 100%;
+  display: block;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  color: var(--mid-grey);
+  text-align: center;
+}
+
+a.secondary-nav__link:hover,
+a.secondary-nav__link:focus {
+  color: var(--yellow);
 }
