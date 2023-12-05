@@ -35,3 +35,38 @@ div.top-card__right-up-arrow {
   background-size: 100% 100%;
   z-index: 2;
 }
+
+/* values section */
+section.values > h2 {
+  margin: 0 auto;
+  color: var(--dark-navy);
+  line-height: 2;
+  text-align: center;
+}
+
+div.value > figure {
+  margin: 1rem var(--mobile-margin);
+  width: 100%;
+  height: auto;
+}
+
+div.value > figure > div.value__img {
+  margin: 0 auto;
+  width: 16rem;
+  height: 16rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 100%;
+}
+
+div.value#value-1 > figure > div.value__img {
+  background-image: url('../../assets/images/our-tech.jpg');
+}
+
+div.value#value-2 > figure > div.value__img {
+  background-image: url('../../assets/images/our-integrity.jpg');
+}
+
+div.value#value-3 > figure > div.value__img {
+  background-image: url('../../assets/images/our-community.jpg');
+}
