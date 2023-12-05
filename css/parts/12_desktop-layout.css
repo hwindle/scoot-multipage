@@ -140,12 +140,22 @@
     margin: 1rem 0;
   }
 
+  /*** grey app links near footer ***/
+  section.app-store {
+    padding: 5rem var(--tablet-margin);
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  section.app-store > h4.app-store__heading {
+    text-align: left;
+  }
+
 }
 
 @media screen and (min-width: 1519px) {
   /* grey stripe on home page */
   div.feature__icon.ride::before {
-    /* left: -14rem; */
     width: 55%;
   }
 }

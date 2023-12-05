@@ -177,4 +177,9 @@
     margin: 0;
     background-position: 60% 100%;
   }
+
+  section.app-store > h4.app-store__heading {
+    max-width: 15ch;
+    font-size: 2.5rem;
+  }
 }

@@ -4,7 +4,7 @@ section.app-store {
   margin-top: 1rem;
   width: 100%;
   height: auto;
-  
+
   padding: 5rem var(--mobile-margin);
   background-color: var(--dark-navy);
   color: white;
@@ -28,7 +28,37 @@ section.app-store > h4.app-store__heading {
   text-align: center;
 }
 
+section.app-store > .app-store__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.3rem;
+}
 
+.app-store__links > div {
+  width: 11rem;
+  height: 3.3rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.app-store__links > div:hover,
+.app-store__links > div:focus {
+  border: 1px dotted var(--yellow);
+}
+
+div.links__ios {
+  background-image: url('../../assets/icons/app-store.svg');
+}
+
+div.links__android {
+  background-image: url('../../assets/icons/google-play.svg');
+}
+
+/*** footer ***/
 footer {
   margin: 0;
   width: 100%;
