@@ -1,0 +1,22 @@
+body#locations-page > section.intro {
+  background-image: url('../../assets/images/careers-location-hero-mobile.jpg');
+}
+
+div.world-map {
+  margin: 3rem var(--mobile-margin) 0;
+  max-width: 90%;
+  height: 20rem;
+  background-image: url('../../assets/images/world-map-mobile.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+li.place {
+  margin: 0.8rem var(--mobile-margin);
+  padding: 1rem;
+  background-color: hsla(40, 97%, 58%, 15%);
+  color: var(--dark-grey);
+  list-style-type: none;
+  text-align: center;
+}

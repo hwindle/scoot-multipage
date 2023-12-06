@@ -276,4 +276,27 @@ body#locations-page > section.intro {
   p.job__location {
     text-align: left;
   }
+
+  /*** locations page ***/
+  body#locations-page > section.intro {
+    background-image: url('../../assets/images/careers-locations-hero-tablet.jpg');
+  }
+
+  section.relative-map {
+    position: relative;
+  }
+
+  div.world-map {
+    margin: 3rem var(--tablet-margin) 0;
+    background-image: url('../../assets/images/world-map-tablet.png');
+    height: 23rem;
+  }
+
+  li.place {
+    position: absolute;
+    padding: 0.8rem 2rem;
+    background-color: var(--yellow);
+    color: var(--dark-grey);
+    list-style-type: none;
+  }
 }

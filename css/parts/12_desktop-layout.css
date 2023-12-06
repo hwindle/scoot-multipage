@@ -204,6 +204,16 @@
   body#careers-page > section.intro {
     background-image: url('../../assets/images/careers-locations-hero-desktop.jpg');
   }
+
+  /*** locations page ***/
+  body#locations-page > section.intro {
+    background-image: url('../../assets/images/careers-locations-hero-desktop.jpg');
+  }
+
+  div.world-map {
+    background-image: url('../../assets/images/world-map-desktop.png');
+    height: 30rem;
+  }
 }
 
 @media screen and (min-width: 1519px) {
