@@ -40,7 +40,7 @@ p.message-us__text {
   max-width: 600px;
   color: var(--mid-grey);
   text-align: center;
-  padding: 2rem 0;
+  padding: 2rem 2rem;
 }
 
 button.message-us__btn {

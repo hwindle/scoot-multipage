@@ -146,8 +146,8 @@ div.card__text-info {
 
 /* yellow arrows - sales cards */
 div.top-card__right-down-arrow {
-  width: 734px;
-  height: 100px;
+  width: 100%;
+  height: 40%;
   position: absolute;
   right: -40%;
   bottom: 0;
@@ -158,8 +158,8 @@ div.top-card__right-down-arrow {
 }
 
 div.card__right-down-arrow {
-  width: 390px;
-  height: 130px;
+  width: 26rem;
+  height: 8.6rem;
   position: absolute;
   left: 52%;
   top: 20%;

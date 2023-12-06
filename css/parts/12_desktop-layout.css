@@ -169,10 +169,11 @@
 
   /*** FAQ's section ***/
   section.faqs {
-    margin: 3rem 1rem;
+    margin: 3rem auto;
+    max-width: 1110px;
     display: grid;
     grid-template-rows: auto auto auto;
-    grid-template-columns: auto 730px;
+    grid-template-columns: 1fr 730px;
     grid-template-areas:
       'top-h2 top-h2'
       'heading1 faq1'
@@ -235,11 +236,61 @@
     top: 47%;
     right: 16%;
   }
+
+  /*** message us section ***/
+  section.message-us {
+    margin: 3rem var(--tablet-margin);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h2.message-us__heading {
+    
+    max-width: 12ch;
+    margin: 0;
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  p.message-us__text {
+    margin: 0;
+    text-align: left;
+    padding: 0;
+    flex-grow: 1;
+  }
+
+  button.message-us__btn {
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 1519px) {
   /* grey stripe on home page */
   div.feature__icon.ride::before {
     width: 55%;
+  }
+  /* map pins */
+  /* new york */
+  li.place#new-york-pin {
+    top: 13%;
+    right: 63%;
+  }
+  /* london */
+  li.place#london-pin {
+    top: 6%;
+    right: 47%;
+  }
+  /* Yokohama */
+  li.place#yokohama-pin {
+    top: 15%;
+    right: 17%;
+  }
+  /* Jakarta */
+  li.place#jakarta-pin {
+    top: 47%;
+    right: 24%;
   }
 }
