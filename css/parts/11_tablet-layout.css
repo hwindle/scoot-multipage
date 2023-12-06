@@ -247,4 +247,9 @@ body#locations-page > section.intro {
   div.value > .value__para {
     max-width: 50ch;
   }
+
+  /* faq */
+  p.question {
+    text-align: left;
+  }
 }

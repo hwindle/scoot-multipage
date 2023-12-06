@@ -140,6 +140,7 @@ p.question {
   font-weight: bold;
   cursor: pointer;
   padding: 1rem;
+  color: var(--dark-navy);
 }
 
 p.question.closed > span.chevron {
@@ -156,4 +157,17 @@ p.question.open > span.chevron {
   display: block;
   background-image: url('../../assets/icons/chevron-close.svg');
   background-size: 100% 100%;
+}
+
+p.answer {
+  opacity: 1;
+  height: auto;
+  transition: all 0.5s linear;
+  padding: 1rem;
+  color: var(--dark-navy);
+}
+
+p.answer.answer-hidden {
+  opacity: 0;
+  height: 0;
 }

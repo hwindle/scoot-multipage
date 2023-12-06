@@ -3,7 +3,7 @@
   body#home-page section.top {
     background-image: url('../../assets/images/home-hero-desktop.jpg');
   }
-  
+
   h1.top__main-heading {
     max-width: 15ch;
     font-size: 2.5rem;
@@ -11,7 +11,7 @@
     align-self: flex-start;
     margin-left: 10%;
   }
-  
+
   body#home-page p.top__description {
     max-width: 55ch;
     color: white;
@@ -39,7 +39,7 @@
     top: 55%;
     background-image: url('../../assets/patterns/line.svg');
   }
-  
+
   div.top__yellow-arrow {
     /* grid-column: 3 / 4; */
     position: absolute;
@@ -51,7 +51,7 @@
     top: 55%;
     background-image: url('../../assets/patterns/right-arrow.svg');
   }
-  
+
   div.top__white-circles-desktop {
     /* grid-column: 4 / 5; */
     position: absolute;
@@ -128,7 +128,8 @@
     flex-direction: row;
   }
 
-  h3.card__title, p.card__description {
+  h3.card__title,
+  p.card__description {
     text-align: left;
   }
 
@@ -166,6 +167,37 @@
     max-width: 45ch;
   }
 
+  /*** FAQ's section ***/
+  section.faqs {
+    margin: 3rem 1rem;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto 730px;
+    grid-template-areas: 'top-h2 top-h2'
+                         'heading1 faq1'
+                         'heading2 faq2';
+    row-gap: 2rem;
+  }
+
+  h2.faqs__heading {
+    grid-area: top-h2;
+  }
+
+  h3.faqs__subheading.one {
+    grid-area: heading1;
+  }
+
+  div.accordion-one {
+    grid-area: faq1;
+  }
+
+  h3.faqs__subheading.two {
+    grid-area: heading2;
+  }
+
+  div.accordion-two {
+    grid-area: faq2;
+  }
 }
 
 @media screen and (min-width: 1519px) {
