@@ -214,6 +214,27 @@
     background-image: url('../../assets/images/world-map-desktop.png');
     height: 30rem;
   }
+
+  /* new york */
+  li.place#new-york-pin {
+    top: 13%;
+    right: 65%;
+  }
+  /* london */
+  li.place#london-pin {
+    top: 6%;
+    right: 46%;
+  }
+  /* Yokohama */
+  li.place#yokohama-pin {
+    top: 15%;
+    right: 9%;
+  }
+  /* Jakarta */
+  li.place#jakarta-pin {
+    top: 47%;
+    right: 16%;
+  }
 }
 
 @media screen and (min-width: 1519px) {
