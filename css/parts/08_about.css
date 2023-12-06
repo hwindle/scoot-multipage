@@ -4,6 +4,8 @@ body#careers-page > section.intro,
 body#locations-page > section.intro {
   margin: 0;
   width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body#about-page > section.intro > h1,
@@ -19,8 +21,6 @@ body#locations-page > section.intro > h1 {
 
 body#about-page > section.intro {
   background-image: url('../../assets/images/about-hero-mobile.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 /* sales info */
@@ -103,7 +103,7 @@ div.value__number {
   bottom: -18%;
   left: 33%;
   width: 6rem;
-  height: 6rem; 
+  height: 6rem;
   padding: 1.8rem;
   font-size: 1.8rem;
   font-weight: bold;

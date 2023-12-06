@@ -204,8 +204,8 @@
 
   /*** about page ***/
   body#about-page div.white-circles,
-  body#careers-page > div.white-circles,
-  body#locations-page > div.white-circles {
+  body#careers-page  div.white-circles,
+  body#locations-page  div.white-circles {
     /* circles on the right */
     position: absolute;
     top: 32%;
@@ -251,5 +251,10 @@ body#locations-page > section.intro {
   /* faq */
   p.question {
     text-align: left;
+  }
+
+  /*** Careers page ***/
+  body#careers-page > section.intro {
+    background-image: url('../../assets/images/careers-locations-hero-tablet.jpg');
   }
 }

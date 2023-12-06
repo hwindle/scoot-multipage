@@ -173,9 +173,10 @@
     display: grid;
     grid-template-rows: auto auto auto;
     grid-template-columns: auto 730px;
-    grid-template-areas: 'top-h2 top-h2'
-                         'heading1 faq1'
-                         'heading2 faq2';
+    grid-template-areas:
+      'top-h2 top-h2'
+      'heading1 faq1'
+      'heading2 faq2';
     row-gap: 2rem;
   }
 
@@ -197,6 +198,11 @@
 
   div.accordion-two {
     grid-area: faq2;
+  }
+
+  /*** Careers page ***/
+  body#careers-page > section.intro {
+    background-image: url('../../assets/images/careers-locations-hero-desktop.jpg');
   }
 }
 
