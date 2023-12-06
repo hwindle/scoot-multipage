@@ -1,3 +1,40 @@
 body#careers-page > section.intro {
   background-image: url('../../assets/images/careers-location-hero-mobile.jpg');
 }
+
+button.card__say-hello {
+  display: block;
+  margin: 2rem auto;
+}
+
+ul.jobs-list {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+li.job {
+  list-style-type: none;
+  background-color: var(--light-grey);
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+h4.job__title, p.job__location {
+  color: var(--dark-grey);
+  text-align: center;
+}
+
+h4.job__title {
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+button.job__apply-btn {
+  display: block;
+  margin: 1rem auto;
+}
+
+button.job__apply-btn:hover,
+button.job__apply-btn:focus {
+  background-color: var(--light-grey);
+}

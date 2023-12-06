@@ -257,4 +257,23 @@ body#locations-page > section.intro {
   body#careers-page > section.intro {
     background-image: url('../../assets/images/careers-locations-hero-tablet.jpg');
   }
+
+  li.job {
+    max-width: 1110px;
+    margin: 0.8rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  li.job > div {
+    flex-grow: 1;
+  }
+
+  h4.job__title,
+  p.job__location {
+    text-align: left;
+  }
 }
