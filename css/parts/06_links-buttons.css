@@ -2,7 +2,7 @@ button > a {
   display: block;
   padding: 0.8rem 1.7rem;
   background-color: var(--yellow);
-  color: var(--snow);
+  color: white;
   font-weight: bold;
   font-size: 1.1rem;
   letter-spacing: 0.2ch;
