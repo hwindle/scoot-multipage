@@ -167,7 +167,7 @@ p.question.open > span.chevron {
 p.answer {
   opacity: 1;
   height: auto;
-  transition: all 0.5s linear;
+  transition: all 0.2s linear;
   padding: 1rem;
   color: var(--dark-navy);
 }
@@ -175,4 +175,6 @@ p.answer {
 p.answer.answer-hidden {
   opacity: 0;
   height: 0;
+  padding: 0 1rem;
+  overflow: hidden;
 }
