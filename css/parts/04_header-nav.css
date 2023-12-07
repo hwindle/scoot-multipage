@@ -37,6 +37,14 @@ header {
   background-size: cover;
 }
 
+.header__mobile-menu-btn.open {
+  width: 2rem;
+  height: 2rem;
+  background-image: url('../../assets/icons/close.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 div.mobile-menu {
   display: none;
 }
@@ -51,7 +59,7 @@ div.mobile-menu.active {
   overflow: hidden;
   height: 87vh;
   margin: 6rem 0 2rem 0;
-
+  z-index: 100;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
